@@ -1,0 +1,64 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0c111b;
+}
+
+#PopUp {
+  box-shadow: 0 0 5px #e91e63, 0 0 25px #e91e63, 0 0 50px #e91e63;
+  background-color: #141e30;
+  margin-top: 20%;
+  margin-left: 34%;
+  height: 45vh;
+  width: 30vw;
+  border: 1px #424242 solid;
+}
+
+#CaseLogin {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#login {
+  margin-top: 20%;
+}
+
+#password {
+  margin-top: 20%;
+}
+
+.LetterSpan {
+  color: white;
+  width: 100% !important;
+  font-size: 18px;
+}
+.CaseInput {
+  font-size: 150%;
+  color: #e91e63;
+  box-shadow: 0 0 5px #e91e63, 0 0 25px #e91e63;
+  border: #e91e63 solid 2px;
+  background-color: #141e30;
+  margin-top: 4%;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+  padding-left: 2.5%;
+  width: 70%;
+}
+
+#Submit {
+  margin-top: 16%;
+  padding: 2%;
+  background-color: #141e30;
+  color: #e91e63;
+}
+
+#Submit:hover {
+  color: #141e30;
+  background-color: #e91e63;
+  box-shadow: 0 0 5px #e91e63, 0 0 25px #e91e63, 0 0 50px #e91e63,
+    0 0 75px #e91e63, 0 0 100px #e91e63;
+}
